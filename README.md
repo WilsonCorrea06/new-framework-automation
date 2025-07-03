@@ -1,5 +1,15 @@
 # New Framework Automation
 
+[![GitHub Stars](https://img.shields.io/github/stars/WilsonCorrea06/new-framework-automation?style=for-the-badge)](https://github.com/WilsonCorrea06/new-framework-automation/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/WilsonCorrea06/new-framework-automation?style=for-the-badge)](https://github.com/WilsonCorrea06/new-framework-automation/issues)
+[![GitHub License](https://img.shields.io/github/license/WilsonCorrea06/new-framework-automation?style=for-the-badge)](https://github.com/WilsonCorrea06/new-framework-automation/blob/main/LICENSE)
+
+## 🔗 Repositorio GitHub
+
+**🌐 URL del Repositorio**: [https://github.com/WilsonCorrea06/new-framework-automation](https://github.com/WilsonCorrea06/new-framework-automation)
+
+**👨‍💻 Autor**: Wilson Correa ([@WilsonCorrea06](https://github.com/WilsonCorrea06))
+
 ## 📋 Descripción del Proyecto
 
 Framework de automatización profesional diseñado para testing multiplataforma, incluyendo aplicaciones móviles (iOS/Android) y web. Este framework está estructurado siguiendo las mejores prácticas de la industria para garantizar escalabilidad, mantenibilidad y reutilización de código.
@@ -119,7 +129,7 @@ new-framework-automation/
 ### Instalación
 ```bash
 # Clonar el repositorio
-git clone [repository-url]
+git clone https://github.com/WilsonCorrea06/new-framework-automation.git
 cd new-framework-automation
 
 # Instalar dependencias (Playwright + Appium)
@@ -379,11 +389,45 @@ Los hooks están configurados en `config/hooks/cleanup.hooks.js` y se ejecutan a
 ## 🤝 Contribución
 
 Para contribuir al proyecto:
-1. Fork el repositorio
-2. Crea una branch feature
-3. Commit tus cambios
-4. Push a la branch
-5. Crea un Pull Request
+
+1. **Fork el repositorio**
+   ```bash
+   # Visita https://github.com/WilsonCorrea06/new-framework-automation
+   # Haz click en "Fork" en la esquina superior derecha
+   ```
+
+2. **Clona tu fork**
+   ```bash
+   git clone https://github.com/TU_USERNAME/new-framework-automation.git
+   cd new-framework-automation
+   ```
+
+3. **Crea una branch feature**
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+   ```
+
+4. **Haz tus cambios y commit**
+   ```bash
+   git add .
+   git commit -m "✨ Agregar nueva funcionalidad"
+   ```
+
+5. **Push a tu branch**
+   ```bash
+   git push origin feature/nueva-funcionalidad
+   ```
+
+6. **Crea un Pull Request**
+   - Ve a https://github.com/WilsonCorrea06/new-framework-automation
+   - Haz click en "New Pull Request"
+   - Describe tus cambios detalladamente
+
+### 📋 Guías de Contribución:
+- Sigue el patrón **Page Object Model** para nuevas páginas
+- Agrega tests para nuevas funcionalidades
+- Mantén el código documentado
+- Ejecuta las pruebas antes de hacer PR
 
 ## 📄 Licencia
 
