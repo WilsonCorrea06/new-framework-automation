@@ -1,0 +1,88 @@
+# Environment Variables (SECURITY CRITICAL)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Test Results and Reports
+test-results/
+reports/
+evidence/screenshots/*.png
+evidence/videos/*.mp4
+evidence/*.xml
+logs/
+*.log
+
+# Appium and WebDriver
+appium.log
+chromedriver.log
+geckodriver.log
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Build and Distribution
+dist/
+build/
+out/
+
+# Mobile Apps (keep examples, exclude real apps)
+apps/android/*.apk
+apps/ios/*.app
+apps/ios/*.ipa
+!apps/android/example-*.apk
+
+# Credentials and Keys
+*.pem
+*.key
+*.p12
+*.mobileprovision
+keystore.properties
+credentials.json
+
+# Package Manager
+package-lock.json
+yarn.lock
+
+# Coverage Reports
+coverage/
+nyc_output/
+
+# Allure Reports
+allure-results/
+allure-report/
+
+# Screenshots with sensitive data
+*-error-*.png
+*-result-*.png
+*-login-*.png
+
+# Page Sources (may contain sensitive info)
+page-source-*.xml 
